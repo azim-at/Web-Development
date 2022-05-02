@@ -10,7 +10,7 @@ img {
 
  hr {
      border-style: none;
-     border-top: dotted;
+     border-top-style: dotted;
      border-color: black;
      border-width: 2px;
      width: 10%;
