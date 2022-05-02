@@ -1,0 +1,17 @@
+body { 
+    background-color: #DDDDDD;
+}
+
+img {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+ }
+
+ hr {
+     border-style: none;
+     border-top: dotted;
+     border-color: black;
+     border-width: 2px;
+     width: 10%;
+ }
