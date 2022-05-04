@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    margin: 0;
+    padding: 80px;
+}
+
+/* Image */
+#dp {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+ }
+
+/* Span 1 web developer */
+.span-1 {
+    font-weight: bold;
+}
+
+.div-1 {
+    background-color: beige;
+}
+
+.top-cloud {
+    position: relative;
+    top: 70px;
+    left: 200px;  
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 250px; 
+}
+
+.p1 {
+    position: relative;
+    bottom: 70px;
+
+}
