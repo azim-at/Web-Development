@@ -2,12 +2,43 @@ body {
     text-align: center;
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+
+.profile {
+    width: 50%;
+    margin: auto;
 }
 
 h1 {
     font-family: 'Gloria Hallelujah', cursive;
     margin: 0;
     padding: 80px;
+    font-size: 60px;
+    color: darkslategrey;   
+}
+
+h2 {
+    color: darkslategray;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.h3 {
+    color: darkslategray;
+    font-weight: bold;
+}
+
+.heading-2  {
+    position: relative;
+    bottom: 70px;
+    font-size: 1.563rem;
+}
+
+.skill-row {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 /* Image */
@@ -34,11 +65,18 @@ h1 {
 
 .bottom-cloud {
     position: absolute;
-    top: 250px; 
+    top: 350px; 
 }
 
-.p1 {
-    position: relative;
-    bottom: 70px;
+.pra {
+    text-align: left;
+    line-height: 2;
+}
 
+.dev {
+    width: 25%;
+}
+
+.game {
+    width: 25%;
 }
