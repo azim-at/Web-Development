@@ -15,9 +15,9 @@ function globalFunction(){
                     document.querySelector("#player1").setAttribute("src","images/dice6.png");
         }
 
-                if (randomNumber2 === 1) {
+        if (randomNumber2 === 1) {
                     document.querySelector("#player2").setAttribute("src","images/dice1.png");
-                }else if (randomNumber2 === 2) {
+        }else if (randomNumber2 === 2) {
                     document.querySelector("#player2").setAttribute("src","images/dice2.png");
                 }else if (randomNumber2 === 3) {
                     document.querySelector("#player2").setAttribute("src","images/dice3.png");
