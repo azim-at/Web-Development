@@ -1,3 +1,4 @@
+// Mouse click
 for(i = 0; i < document.querySelectorAll(".drum").length; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function() {
         var buttonHTML = this.innerHTML;
@@ -5,13 +6,12 @@ for(i = 0; i < document.querySelectorAll(".drum").length; i++) {
     });
 }
 
+// Keyboard keypress
 document.addEventListener("keydown",function(event) {
     keyPress(event.key);
 })
 
-
-
-
+// Switch statement
 function keyPress (key) {
 switch (key) {
         case 'w':
