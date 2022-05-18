@@ -60,5 +60,10 @@ switch (key) {
 // Adding animation
 function buttonAnimation(currentButton) {
     var activeButton = document.querySelector("." + currentButton);
-    activeButton.classList.add("pressed")
+    activeButton.classList.add("pressed");
+
+    // Adding delay
+    setTimeout(function() {
+        activeButton.classList.remove("pressed")
+    },100);
 }
