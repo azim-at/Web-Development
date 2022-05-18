@@ -3,12 +3,15 @@ for(i = 0; i < document.querySelectorAll(".drum").length; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function() {
         var buttonHTML = this.innerHTML;
         keyPress(buttonHTML);
+        buttonAnimation(buttonHTML);
     });
 }
 
 // Keyboard keypress
 document.addEventListener("keydown",function(event) {
     keyPress(event.key);
+    buttonAnimation(event.key);
+
 })
 
 // Switch statement
@@ -52,4 +55,10 @@ switch (key) {
         console.log("You are pressing the wrong button");
         break;
 }
+}
+
+// Adding animation
+function buttonAnimation(currentButton) {
+    var activeButton = document.querySelector("." + currentButton);
+    activeButton.classList.add("pressed")
 }
