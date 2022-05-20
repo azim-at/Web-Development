@@ -12,7 +12,6 @@ body {
     height: 350px;
     color: #a18a96;
     background: url(/Libraries/Content\ reveal\ card/images/azim.jpg);
-    center: no-repeat;
     background-size: cover;
     border-radius: 20px;
     overflow: hidden;
