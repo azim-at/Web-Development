@@ -15,6 +15,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Loader -->
+  <div class="loader-wrapper">
+    <div class="container">
+      <div class="loader">
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <span>Loading...</span>
+      </div>
+  </div>
+  </div>
+
     <!-- Intro -->
     <div class="div-1">
         <img class= "top-cloud" src="images/cloud.png" alt="cloud-img">
@@ -75,5 +87,12 @@
         <p class = "bottom-p">©2022 Azim Talikoti.</p>
       </div>
       
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader-wrapper').fadeToggle();
+        }, 1000);
+    </script>
     </body>
 </html>
